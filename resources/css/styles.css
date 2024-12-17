@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 75vh;
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(58, 24, 83, 0.201);
+}
+
+.snowman {
+    height: 90%;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.hat {
+    width: 15%;
+    height: 10%;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.top {
+    width: 100%;
+    height: 75%;
+    background-color: red;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.bottom {
+    width: 150%;
+    border: 1px solid red;
+    border-radius: 46%;
+    height: 0.25vh;
+    
+}
+
+.snow-body {
+    height: fit-content;
+    width: fit-content;
+    margin: 15vh auto;
+}
+
+.top-snowball {
+    background-color: #eee;
+    width: 10vw;
+    height: 7vh;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.eyes {
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left, .right {
+    height: 1.5vh;
+    width: 1.5vw;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.smile {
+    position: absolute;
+    border: 1px solid;
+    width: 100%;
+    height: 1.5vh;
+    left: 0;
+    right: 0;
+    margin: 4vh auto;
+    border-radius: 50%;
+    transform:skewY(deg);
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dot {
+    width: .75vw;
+    height: .75vh;
+    border-radius: 50%;
+    background-color: black;
+}
+
+
+.middle-snowball {
+    background-color: #eee;
+    width: 15vw;
+    height: 10vh;
+    border-radius: 50%;
+    margin: -1px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1vh;
+}
+
+.button {
+    width: 1vw;
+    height: 1vh;
+    background-color: rgb(255, 0, 0);
+    margin:  auto;
+    z-index: 22;
+    border-radius: 50%;
+}
+
+.bottom-snowball {
+    background-color: #eee;
+    border-radius: 50%;
+    width: 20vw;
+    height: 15vh;
+    margin: -1px auto;
+}
